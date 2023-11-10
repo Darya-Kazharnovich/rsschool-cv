@@ -25,7 +25,7 @@ Project RS School: CV
 ### Education
 * *University*:
   * Belarusian State Technological University, chemical engineer-technologist
-* *Courses*: 
+* *Courses*:
   * Svyatoslav Kulikov, Software Testing Introduction
 ### Languages
 * *English* — A2 — Elementary

@@ -1,24 +1,24 @@
 * {
-    box-sizing: border-box; /*границы и внутренние отступы учитываются*/ 
+    box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth; /*плавная прокрутка*/  
+    scroll-behavior: smooth;
 }
 body {
-    display: flex; /*сделали флекс-контейнер*/
-    flex-direction: column; /*расположили ось вертикально*/
-    justify-content: space-between; /*выровняли по вертикали*/
-    font-family: 'Quicksand', sans-serif; /*задали стиль шрифта*/
-    margin: 0; /*внешние отступы 0*/
-    padding: 0; /*внутренние отступы 0*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .header {
     background-color: #6464648c;
     margin: 10px 30px;
 }
 .container {
-    max-width: 1440px; /*ограничим ширину контейнера*/
-    margin: 0 10px; /*уберем внешние вертикаьные отступы, горизональные авто*/
+    max-width: 1440px;
+    margin: 0 10px;
   }
 .round {
     border-radius: 50%;
@@ -38,25 +38,25 @@ body {
     margin-top: 60px;
 }
 .item {
-    padding: 0; 
+    padding: 0;
     margin-left: 0px;
 }
 .nav-list {
-    display: flex; /*делаем список контейнером*/
-    justify-content: center; /*сдвигаем сожержимое в центр*/
-    align-items: center; /*центрируем по горизонтальной оси*/
-    list-style: none; /*убираем маркеры*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
 }
 .nav-link {
-    font-weight: bold; /*сделали шрифт жирным*/
-    text-decoration: none; /*убрали подчеркивание ссылок*/
+    font-weight: bold;
+    text-decoration: none;
     color: black;
-    padding: 0 10px; /*добавили отступы между строками*/
-    line-height: 10px; /*минимальная высота строки*/
-    transition: .3s; /*свойства меняются плавно*/
+    padding: 0 10px;
+    line-height: 10px;
+    transition: .3s;
 }
 .nav-link:hover {
-    color: rgb(114, 91, 216); /*при наведении на ссылку изменится цвет*/
+    color: rgb(114, 91, 216);
 }
 .main {
     display: flex;
@@ -75,7 +75,7 @@ body {
 }
 .link-CV {
     text-decoration: none;
-    color: black; 
+    color: black;
 }
 .link-CV:hover {
     color: rgb(114, 91, 216);
@@ -95,7 +95,7 @@ body {
     align-items: center;
     margin: 0px 80px 0px 80px;
 }
-@media (max-width: 768px) { /*медиа-запрос "при уменьшении экрана ширина 100%" */
+@media (max-width: 768px) {
 .section {
       width: 100%;
     }
